@@ -8,8 +8,8 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Preloader from "@/components/Preloader";
 import Subscribe from "@/components/Subscribe";
+import Head from 'next/head';
 import { useEffect, useState } from "react";
-import Head from "next/head";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -30,7 +30,7 @@ export default function Home() {
   }, []);
   return (
     <div>
-      <Head>
+     <Head>
         <title>Noble mind</title>
         <meta name="title" content="Noble mind" />
         <meta
