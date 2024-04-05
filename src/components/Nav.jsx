@@ -7,11 +7,11 @@ const Nav = () => {
       setshow(!show);
       
     }
-    if (show === true) {
-      document.body.classList.add("max-lg:overflow-hidden");
-    } else {
-      document.body.classList.remove("max-lg:overflow-hidden");
-    }
+    // if (show === true) {
+    //   document.body.classList.add("max-lg:overflow-hidden");
+    // } else {
+    //   document.body.classList.remove("max-lg:overflow-hidden");
+    // }
   return (
     <div className='bg-white'>
     <div className="container max-w-[1140px] 2xl:max-w-[1320px] px-3 mx-auto">
