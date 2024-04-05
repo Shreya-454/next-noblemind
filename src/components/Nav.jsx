@@ -5,11 +5,12 @@ const Nav = () => {
     const [show, setshow] = useState(true);
     function nav() {
       setshow(!show);
-      if (show === true) {
-        document.body.classList.add("max-lg:overflow-hidden");
-      } else {
-        document.body.classList.remove("max-lg:overflow-hidden");
-      }
+      
+    }
+    if (show === true) {
+      document.body.classList.add("max-lg:overflow-hidden");
+    } else {
+      document.body.classList.remove("max-lg:overflow-hidden");
     }
   return (
     <div className='bg-white'>
