@@ -39,11 +39,11 @@ const Subscribe = () => {
       email: "",
     });
   };
-  if (showSuccessPopup) {
-    document.body.classList.add("overflow-hidden");
-  } else {
-    document.body.classList.remove("overflow-hidden");
-  }
+  // if (showSuccessPopup) {
+  //   document.body.classList.add("overflow-hidden");
+  // } else {
+  //   document.body.classList.remove("overflow-hidden");
+  // }
   return (
     <div className="lg:pt-[64px] relative  " id="subs">
          <Image src="/assets/images/triangle.webp" width={70.97} height={95.49} alt="tri" className=" absolute left-[2%] top-[10%] hidden lg:block"/>

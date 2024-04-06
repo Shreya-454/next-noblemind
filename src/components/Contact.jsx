@@ -55,11 +55,11 @@ const Contact = () => {
       email: "",
     });
   };
-  if (showSuccessPopup) {
-    document.body.classList.add("overflow-hidden");
-  } else {
-    document.body.classList.remove("overflow-hidden");
-  }
+  // if (showSuccessPopup) {
+  //   document.body.classList.add("overflow-hidden");
+  // } else {
+  //   document.body.classList.remove("overflow-hidden");
+  // }
   return (
     <div className="lg:pt-[150px] md:pt-20 pt-10">
       <div
