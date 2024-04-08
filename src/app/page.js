@@ -1,6 +1,5 @@
 "use client";
 import Aboutus from "@/components/Aboutus";
-import BackToTop from "@/components/BackToTop";
 import Choose from "@/components/Choose";
 import Contact from "@/components/Contact";
 import Faq from "@/components/Faq";
@@ -75,7 +74,6 @@ export default function Home() {
           <Faq />
           <Subscribe />
           <Footer />
-          <BackToTop />
         </div>
       )}
     </div>
