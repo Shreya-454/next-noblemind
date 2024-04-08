@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from "react";
 import { Uparrow } from "./Icon";
+import Window from 'next'
 const BackToTop = () => {
     const [visible, setVisible] = useState(false);
 
@@ -13,14 +14,14 @@ const BackToTop = () => {
         }
     };
 
-    const scrollToTop = () => {
-        Window.scrollTo({
-            top: 0,
-            behavior: "smooth",
-        });
-    };
+    // const scrollToTop = () => {
+    //     Window.scrollTo({
+    //         top: 0,
+    //         behavior: "smooth",
+    //     });
+    // };
 
-    Window.addEventListener("scroll", toggleVisible);
+    // Window.addEventListener("scroll", toggleVisible);
     return (
         <div>
             <button className="group animate-bounce flex justify-center items-center p-2 w-[50px] h-[50px] sm:w-[60px] sm:h-[60px] bg-btn-gradient rounded-full fixed right-[1.7%] bottom-[10px] z-30 transition-all ease-linear duration-300 "
